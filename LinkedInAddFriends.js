@@ -1,7 +1,7 @@
 setInterval(function () {
-    jQuery('.mn-pymk-list__card').each(function () {
-        var button = jQuery(this).find('.button-secondary-small');
-        var friendName = jQuery(this).find('.pymk-card__name').text();
+    jQuery('.mn-discovery-entity-card').each(function () {
+        var button = jQuery(this).find('.artdeco-button--secondary');
+        var friendName = jQuery(this).find('.mn-discovery-person-card__name').text();
         var toScroll = jQuery(document).height();
         if (jQuery(button).length) {
             if (!jQuery(button).hasClass('clicked')) {
