@@ -8,5 +8,11 @@ setInterval(function () {
 		}
 		else 
 			console.log('No');
-	}	
+	}
+	start_scroll_down()
 }, 10000);
+
+
+function start_scroll_down() { 
+   scroll = setInterval(function(){ window.scrollBy(0, 2000); console.log('start');}, 10000);
+}
