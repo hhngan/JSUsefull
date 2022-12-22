@@ -15,3 +15,5 @@ function htmlEncode(value) {
 function htmlDecode(value) {
   return $('<div/>').html(value).text();
 }
+
+// Add more script here
